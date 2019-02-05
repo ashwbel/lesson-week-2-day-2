@@ -1,0 +1,157 @@
+
+body
+{
+  margin: 0px;
+  line-height: 1.5;
+}
+h1,p,ul{
+  margin: 0px;
+
+}
+header
+{
+  background-color: #004d4d;
+  width: auto;
+  height: 70px;
+  border-bottom: black solid 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+footer
+{
+  background-color: #004d4d;
+  width: auto;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  color: #F8F8FF;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+ul
+{
+  list-style: none;
+
+}
+ul li
+{
+ display: inline-block;
+ padding: 5px;
+ font-size: 20px;
+}
+
+.the_divied_row
+{
+  background-color: #C0C0C0;
+  margin: 0px;
+  width: auto;
+  height: 50px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 0;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_container
+{
+  background-image: url("../images/coworking.jpg");
+  background-size:100% 100%;
+  background-color: blue;
+  margin: 0px;
+  width: auto;
+  height: 500px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  background-repeat: no-repeat;
+
+}
+
+.image_box
+{
+  height: 380px;
+  width: 250px;
+  padding: 30px;
+  margin-right: 150px;
+  font-size: 18px;
+  border-style:groove;
+  background-color: rgba(230, 230, 250, 0.7);
+  font-family:serif;
+
+
+}
+.container_three_box
+{
+  padding: 40px;
+  background-color: #F8F8FF;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+.box
+{
+  padding: 20px;
+  height: 250px;
+  width:  250px;
+}
+.box1 ,.box2
+{
+  border-right: #D3D3D3 solid 2px;
+  padding-right: 100px;
+}
+
+
+.butn1
+ {
+   border-radius: 8px;
+   background-color: #D3D3D3;
+   border: none;
+   width: 250px;
+   color: black;
+   padding: 20px;
+   text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 30px 2px;
+ }
+ .butn2
+ {
+   background-color: #FFFF00;
+   border-radius: 8px;
+   border: none;
+   color: black;
+   padding: 20px 10px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   width: 250px;
+   margin-top: 50px ;
+
+ }
+
+ .link_bold
+ {
+   font-weight: bold;
+ }
+
+#inline_txt
+{
+  text-decoration: line-through;
+  color: #adad85;
+  padding: 5px;
+}
+#underline_txt
+{
+  text-decoration: underline;
+  text-decoration-color: #004d4d;
+  padding: 5px;
+}
